@@ -77,7 +77,7 @@ escreval("                 |_| \_|\__,_|  \__/  \__,_||__|")
       senao
          escreval ("Escreva um numero valido !")
       fimse
-      escreval("       Informe o n˙mero de barcos para o jogo (de 1 a 20)")
+      escreval("       Informe o n√∫mero de barcos para o jogo (de 1 a 20)")
       leia(numero_barcos)
       limpatela
       se numero_barcos <> 1001101 entao
@@ -113,7 +113,7 @@ escreval("                 |_| \_|\__,_|  \__/  \__,_||__|")
                escreval("(ON)")
             fimse
             escreval("           Substitue o jogador por outra maquina para uma")
-            escreval("           demostraÁ„o din‚mica")
+            escreval("           demostra√ß√£o din√¢mica")
             escreva("'B' - MOSTRE TUDO! ")
             se mostre_tudo = "O" entao
                escreval("(Off)")
@@ -323,7 +323,7 @@ escreval("                 |_| \_|\__,_|  \__/  \__,_||__|")
 
 
          se validacao_bomba = 0 entao
-            escreval("PosiÁ„o inv·lida, jogue novamente !")
+            escreval("Posi√ß√£o inv√°lida, jogue novamente !")
             escreval("")
          senao
             escreval("      Bom jogo")
@@ -331,7 +331,7 @@ escreval("                 |_| \_|\__,_|  \__/  \__,_||__|")
          fimse
 
 
-         escreval("       Jogador                      M·quina")
+         escreval("       Jogador                      M√°quina")
          escreval("   1 2 3 4 5 6 7 8 9           1 2 3 4 5 6 7 8 9")
          para i de 1 ate 9 faca
             para j de 1 ate 18 faca
